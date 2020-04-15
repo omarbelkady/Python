@@ -6,3 +6,6 @@ class omarsMessenger(threading.Thread):
 	        print(threading.currentThread().getName())
 x=omarsMessenger(name="Send out messages Dude")
 y=omarsMessenger(name="Receiving messages Dude")
+#Whenever you create a thread must call start function first
+x.start()
+y.start()
