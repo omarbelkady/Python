@@ -1,8 +1,8 @@
 class Enemy:
-		def __init(self, x):
-			self.energy=x
-		def get_energy(self):
-			print(self.energy)
+	def __init(self, x):
+		self.energy=x
+	def get_energy(self):
+		print(self.energy)
 jason=Enemy(5)
 sandy=Enemy(18)	
 
