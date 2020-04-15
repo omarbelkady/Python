@@ -1,0 +1,10 @@
+tuna=int(input(“What’s your fav number? \n”))
+	
+#Exception Error aka Value Error
+	Output: What’s your fav number?
+	  Input: lfadjldalf
+	  #Wrong Data Type
+
+#Syntax Error
+tuna=int(in.put(“What’s your fav number? \n”))
+  #Typo
