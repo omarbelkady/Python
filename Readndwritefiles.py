@@ -1,3 +1,5 @@
+##syntax to open file varName=open("Filename.txt",mode:'r' for read or 'w' for write)
+##syntax to open varName=open("fileName.txt","mode")
 fw=open("nameofthefile.txt", 'w')
 fw.write("Writing some stuff in the text file\n")
 fw.write("I like sushi\n")
