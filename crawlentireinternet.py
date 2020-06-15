@@ -10,7 +10,7 @@ def trade_spider(max_pages):
 		plain_text=source_code.text
 		soup=BeautifulSoup(plain_text)#creating a beautiful soup object
 		#go to page source to find all the links for specific articles to browse in a class
-		for link in soup.findAll(‘a’,{‘class’: ‘item-name’}): #getting all the titles
+		for link in soup.findAll('a',{'class': 'item-name'}): #getting all the titles
 			href= "http://buckyroom.org/"+link.get(href)#we want only the data in the href
 				title=link.string()
 				#print(href)
