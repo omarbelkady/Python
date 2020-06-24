@@ -2,4 +2,4 @@ classmates={'alan': ' C LOVER', 'Noor': ' hottest-CS','Laura': ' dumb B**** who 
 print(classmates['Noor'])
 #Loop through the keys
 for k,v in classmates.items():
-    print(k+v)
+	print(k+v)
