@@ -3,5 +3,5 @@ for x in range (10):
 
 for x in range(5,30,2):
   print(x)
-for x in range(start,stop,step):
-	print(x)
+#for x in range(start,stop,step):
+#	print(x)
