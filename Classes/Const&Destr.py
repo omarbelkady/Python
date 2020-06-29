@@ -7,7 +7,7 @@ class Animal(object):
     #Anytime we instantiate the class
     #If we do not create a constructor one is created for us by default in memory
     # We call this the default constructor
-    def __init__(self):
+    def __init__(self): #constructor
         print("Remember this fires when we create an instance of the class. \nFYI Animal Constructed!")
         
     #A default constructor does absolute nothing. The default constructor example:
@@ -39,24 +39,25 @@ class Reptile(Mammal, Animal):
     def age(age,name):
         this.name=name
         print("Hello there you\\'re "+ age+" years old and your name is " + name + " and you were just created")
-    def __del__(self):
-        print("This instance was just destroyed")
+    
 class Insect():
     hasWings= True #this is a static var
     
-    def __init__(self):
+    def __init__(self,name):
         print("We just created an Insect!")
+        self.__name__=name
     
     #destructor is called automatically when the class is deconstructed
     def __del__(self):
-        print("The insect instance of " + self.__class__.__name__ + " was just destroyed")
+        print("The insect instance of " + self.__name__+ " was just destroyed")
     
     def name(self, x):
         print("Hello Insecty your name is " + x)
 
 
 
-firefly = Insect()
-firefly.name("Samuel")
+firefly = Insect("Samuel")
 
-turtle=Reptile("Samantha")
+
+turtle=Reptile(40)
+
