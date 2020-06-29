@@ -88,8 +88,8 @@ runTheApp.pack()
 
 
 #To display the attached image even after I close the application
-for app in myApp:
-    label=tk.Label(myFrame, text=app)
+for theapp in myApp:
+    label=tk.Label(myFrame, text=theApp)
     label.pack()
 
 root.mainloop()
