@@ -26,8 +26,26 @@ class Mammal(Animal):
     
     aintHairless= True #this is a static var
     def __init__(self):
-        super()
+        super(Mammal.self).__init__()
         print("We just created an Mammal!")
+
+class Reptile(Mammal, Animal):
+    has_Scales=True
+    def __init__(self,years):
+        super(Reptile.self).__init__()
+        print("Reptile Created!")
+
+class Dragon(Reptile, Mammal):
+    
+    def __init__(self,years=30):
+        Dragon.self.__init__()#We must initialize the super constructor
+        #How to add variables within the constructor
+        
+        print("Dragon Created and is %d years old" %self.years)
+     
+    #destructor 
+    def __del__(self):
+        print("The dragon instance of " + self.__class__.__name__ + " was just destroyed")
 
 class Insect():
     hasWings= True #this is a static var
@@ -41,6 +59,8 @@ class Insect():
     
     def name(self, x):
         print("Hello Insecty your name is " + x)
+
+
 
 firefly = Insect()
 firefly.name("Samuel")
