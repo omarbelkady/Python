@@ -36,9 +36,8 @@ class Reptile(Mammal, Animal):
         print("Reptile Created!")
     def name(self, z):
         print("Hello repi your name is " + z)
-    def age(age,name):
-        this.name=name
-        print("Hello there you\\'re "+ age+" years old and your name is " + name + " and you were just created")
+    def age(self,age,name):
+        print("Hello there you\'re "+ str(age)+" years old and your name is " + name + " and you were just created")
     
 class Insect():
     hasWings= True #this is a static var
@@ -60,4 +59,4 @@ firefly = Insect("Samuel")
 
 
 turtle=Reptile(40)
-
+turtle.age(40,"Richard")
