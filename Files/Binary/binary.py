@@ -17,7 +17,7 @@ print("File has been written, I will read it back!")
 
 #now I will open it as binary read
 with open(myStringFile,'br') as l:
-    #read a maximum of 32 bytes
+    #read a maximum of 16 bytes
     buffer=l.read(16)
     print("length of Buffer: %d" %len(buffer))
     
