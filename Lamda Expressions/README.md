@@ -3,7 +3,7 @@
 ### However, a lambda function can only have 1 expression.
 
 
-```
+```python
 	z = lambda x, y : x / y
 	print(z(144/2))
 ```
