@@ -13,7 +13,7 @@ def trade_spider(max_pages):
 			href= "http://buckyroom.org/"+link.get(href)#we want only the data in the href
 			title=link.string()
 			print(href)
-      print(title)
+      			print(title)
 		page += 1
 trade_spider(1)
 #we just went to the website and pulled out every single web crawler from the website
