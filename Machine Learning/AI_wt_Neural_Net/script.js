@@ -3,7 +3,6 @@
 const myNet = new brain.NeuralNetwork({
 	hiddenLayers:[4,5,6]
 })
-const diagram = document.getElementById('my-diagram')
 
 //give our NN information
 myNet.train([
@@ -33,6 +32,8 @@ myNet.train([
 	},
 ])
 
+
+const diagram = document.getElementById('diagram')
 
 //Setting our inner HTML to this
 diagram.innerHTML=brain.utilities.toSVG(myNet)
