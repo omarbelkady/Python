@@ -1,1 +1,1 @@
-![github small](https://github.com/omarbelkady/Python/issues/1#issue-675751723)
+![github large](https://github.com/omarbelkady/Python/issues/1#issue-675751723)
