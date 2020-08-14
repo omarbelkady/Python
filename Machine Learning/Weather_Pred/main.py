@@ -127,7 +127,7 @@ def run_menu():
     print("2. Predict the weather on a specific day")
     print("\n")
 
-    option = input("Enter option: ")
+    option = input("Make an option: ")
 
     while True:
         if option == 2 or option == 1 or option == 9 or option == 3:
