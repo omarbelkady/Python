@@ -8,10 +8,40 @@
 	<!--Brain.js is a wrapper that allows us to work with AI NeurN which allows us to quickly construct a NN-->
 	<script src="//unpkg.com/brain.js" defer></script>
 	<script src="script.js" defer></script>
+
+<style>
+	#color{
+		/*Making it a square*/
+		width: 200px;
+		height: 200px;
+		border: 5px solid black;
+		/*center everything*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/*Make text show up on top of each other instead of side by side*/
+		flex-direction: column;
+	}
+
+
+	/*Change the text color to green*/
+	.green{
+		color: green;
+	}
+</style>
 </head>
 <body>
-	<div id="diagram">
-		
+	<div id="color">
+		<div class="green">Green Text</div>
+		<div>Black Text</div>
+		<div id="guess">Guess Text</div>
 	</div>
+
+	<!-- CREATING THE BUTTONS -->
+	<button id="green-button">Green</button>
+	<button id="black-button">Black</button>
+	
+	<!-- THIS BUTTON PRINTS THE DATA WHEN WE CLICK THE GREEN/BLACK BUTTON -->
+	<button id="print-button">Print</button>
 </body>
 </html>

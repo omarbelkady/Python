@@ -13,5 +13,4 @@ data=keras.datasets.fashion_mnist
 (train_images, train_labels), (test_images, test_labels) = data.load_data()
 
 #Each image above will have its corresponding label
-print(train_labels)
-
+print(train_labels[0])

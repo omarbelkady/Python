@@ -35,7 +35,7 @@ const whiteButton = document.getElementById('white-bttn')
 const blackButton = document.getElementById('black-bttn')
 
 //Selecting the print button
-const printButton = document.getElementById('prnt-bttn')
+const printButton = document.getElementById('print-bttn')
 
 let color
 
@@ -69,7 +69,7 @@ function setRandomColor(){
     color = {
         rd = Math.random(),
         grn = Math.random(),
-        bl = Math.random(),
+        bl = Math.random()
     }
     
     //guessElem.style.color =  `rgba(${color.r * 255}, ${color.g * 255}, ${color.b * 255})`
