@@ -1,0 +1,13 @@
+{
+     "name": "Nelan",
+     "age": 25,
+     "city": "Austin",
+     "likesC": true,
+     "titles": [
+          "c-lover",
+          "pintos-lover",
+          "assembly-programmer",
+          "programmer",
+          "low-level programmer"
+     ]
+}
