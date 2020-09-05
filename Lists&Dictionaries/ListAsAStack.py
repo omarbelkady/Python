@@ -1,7 +1,7 @@
 '''
 A List is a type of DS(way of storing data). 
 A Stack is another type of DS.
-Stack structure in Python FILO
+Stack structure in Python LIFO
 '''
 # Creating an empty dicctionary
 my_stack= {}
