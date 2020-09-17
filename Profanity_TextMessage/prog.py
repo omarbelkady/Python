@@ -4,7 +4,7 @@ import sys
 def swearwords():
 	userinput = str(input("Navigate to the .txt file you would like to censor(remove swear words)"))
 	swearwordslist = ["fuck", "shit", "piss"]
-	with open("{}".format(userinput), 'r+') as f:
+	with open("ABadLetter.txt".format(userinput), 'r+') as f:
 		text = f.readlines()
 		if swearwordslist in text:
 			for swears in swearwordslist:
