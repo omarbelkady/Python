@@ -17,3 +17,18 @@ Python Programs
 	5- Copy the link of your issue
 	6- Paste In README.md
 	7- Do not forget to close the issue
+
+
+## How to create A virtual Environment In Python
+```bash
+root@omarbelkady: ~$ virtualenv --python python3 "venv"
+```
+## How to Activate The Recently Created virtual Environment In Python
+```bash
+root@omarbelkady: ~$ source "venv/bin/activate"
+```
+
+## How To Deactivate the Virtual Environment
+```bash
+root@omarbelkady: ~$ deactivate
+```
