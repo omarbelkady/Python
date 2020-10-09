@@ -14,7 +14,7 @@ class Clover:
 nelan=Clover("Clover","Imperative","Coding in Pascal")
 assembly_enthusiast=Clover("Assembly","Procedural", "Coding In Assembly")
 compilers_lover=Clover("CS375FB","Pintos","Studying his Favorite Course CS375")
-java_lover=Clover("Java","Object Oriented Programming")
+java_lover=Clover("Java","Object Oriented Programming","Research in LLP")
 
 #To change the value
 #java_lover.favLang="C"
@@ -34,3 +34,21 @@ class sayHi:
 
     def get_c(self):
         return self.__c
+
+class Encapsulation:
+    def __init__(self, name, favHobby):
+        #private variables
+        self.__name=name
+        self.__favHobby=favHobby
+    def set_name(self, name):
+        self.__name=name
+    def get_name(self):
+        return self.__name
+    def set_favHobby(self, favHobby):
+        self.__favHobby=favHobby
+    def get_favHobby(self):
+        return self.__favHobbys
+    def printing(self):
+        print(self.__name+" 's fav hobby is: "+self.__favHobby)
+assembly_lover=Encapsulation("Nelan The Assembly Lover", "Coding In Assembly")
+print(assembly_lover.get_name()+" loves: "+assembly_lover.get_favHobby()+" !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
