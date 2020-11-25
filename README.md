@@ -32,3 +32,9 @@ root@omarbelkady: ~$ source "venv/bin/activate"
 ```bash
 root@omarbelkady: ~$ deactivate
 ```
+
+## How To Open A Web Browser With Python
+```python
+import webbrowser
+webbrowser.open("https://www.nelanthecstsffb.com')
+```
