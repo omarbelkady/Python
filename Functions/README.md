@@ -16,9 +16,12 @@ print(favlangs)
 
 
 ```python
-# How To Find An item in the list
+# How To Find An Element within A List
 favlangs=["pascal", "cobol", "machine code"]
-if 'pascal' in 'favlangs':
-	print("favlangs".index("pascal"))
-
+if 'assembly' in favlangs:
+	print(favlangs.index("pascal"))
+elif 'cobol' in favlangs:
+    print(favlangs.index("cobol"))
+else:
+    print("definittttely a llpfb")
 ```
