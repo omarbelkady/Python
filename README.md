@@ -8,6 +8,9 @@ Python Programs
 	3- Sets in Python are a collecion of elements which are unindexed, unordered and immutable. Similar to Array Notation in other PL, we create them using
 	curly braces notation
 	4- To add to a set use .add keyword
+	5- Everything is an object in python
+	6- args takes multiple arguments and wraps them in a tuple
+	7- kwargs takes multiple arguments and wraps them in a dictionary
 
 ## How to add images on GH:
 	1- Download the file
