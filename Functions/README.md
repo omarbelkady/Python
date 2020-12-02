@@ -32,3 +32,13 @@ else:
 a_string= "Hello There"
 print(dir(a_string))
 ```
+
+
+## Arrow Functions in Python with input type and output type specification
+```python
+def isACSTSFFB(name: str) -> bool:
+    if(name == "nelan"):
+        return True
+    else:
+        return False
+```
