@@ -11,6 +11,7 @@ Python Programs
 	5- Everything is an object in python
 	6- args takes multiple arguments and wraps them in a tuple
 	7- kwargs takes multiple arguments and wraps them in a dictionary
+	8- __ before and after are called dunder methods. They are used to overriden in sub classes
 
 ## How to add images on GH:
 	1- Download the file
