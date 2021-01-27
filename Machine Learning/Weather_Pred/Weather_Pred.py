@@ -74,8 +74,8 @@ def train_data():
     clf = LinearRegression()
     clf.fit(X_train, y_train)
     pred = clf.predict(X_test)
-    print r2_score(y_test, pred)
-    print mean_squared_error(y_test, pred)
+    print(r2_score(y_test, pred))
+    print(mean_squared_error(y_test, pred))
 
     joblib.dump(clf, 'weather_predictor.pkl')
 
