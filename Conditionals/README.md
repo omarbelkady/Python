@@ -53,23 +53,28 @@ def my_menu():
     if option == 'a' or option == 'A':
         print("\n\nYou are converting Miles to Km")
         n = float(input("What is amount of miles you wish to convert to km?: "))
-        print(milesToKm(n))
+        s = milesToKm(n)
+        print("%.2f"%s)
     elif option == 'b' or option == 'B':
         print("\n\nYou are converting Gallons to Liters")
         g = float(input("\nWhat is amount of gallons you wish to convert to liters?:  "))
-        print(gallonsToLiters(g))
+        b=gallonsToLiters(g)
+        print("%.2f"%b)
     elif option == 'c' or option == 'C':
         print("\n\nYou are converting Pounds to Kg")
         l = float(input("\nWhat is amount of lb you wish to convert to kg?:  "))
-        print(lbsToKg(l))
+        c=lbsToKg(l)
+        print("%.2f"%c)
     elif option == 'D' or option == 'D':
         print("\n\nYou are converting Inches to Cm")
-        c = float(input("\nWhat is amount of Inches you wish to convert to Cm?:  "))
-        print(inchesToCm(c))
+        d = float(input("\nWhat is amount of Inches you wish to convert to Cm?:  "))
+        e = inchesToCm(d)
+        print("%.2f"%e)
     elif option == 'e' or option == 'E':
         print("\n\nYou are converting Fahrenheight To Celsius")
         cels = int(input("\nWhat is the temperature in Fahrenheight you wish to convert to Celsius?:  "))
-        print(fahrenToCels(cels))
+        h = fahrenToCels(cels)
+        print("%.2f"%h)
     elif ValueError:
         print("That was a wrong choice")
         my_menu()
@@ -86,4 +91,5 @@ def inchesToCm(inches: float) -> float:
     return inches*2.54
 def fahrenToCels(fahren: float) -> float:
     return((fahren-32)/1.8)
+my_menu()
 ```
