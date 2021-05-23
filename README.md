@@ -22,6 +22,52 @@ Python Programs
 	6- Paste In README.md
 	7- Do not forget to close the issue
 
+### Built-in Datatypes in Python:
+```python
+#string
+ll5="2526loves7652626"
+
+#int
+nelanilwthpo = 557
+
+#float
+cstsffb = 37.5
+
+#complex
+cstsffb = 2j
+
+#list
+nelanldj = ["dj", "pola626", "llp"]
+
+#tuple
+cstsffb = ("cstsf", "csftn")
+
+#range
+range(3)
+
+#dictionary keyword: dict
+cstsffb = {"name": "pascal32"}
+
+#set
+cstsffb = {"llp32", "pascal32"}
+
+#fronzenset
+cstsffb = fronzenset({"pintos", "pascal"})
+
+#bool
+lovesbarbdl = True
+
+#bytes
+cstsffb = b"PurePascalFB"
+
+#bytearray
+bytearray = 5
+
+#memoryview
+cstsffb = memoryview(bytes(7))
+
+```
+
 
 ## How to create A virtual Environment In Python
 ```bash
