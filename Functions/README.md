@@ -42,3 +42,64 @@ def isACSTSFFB(name: str) -> bool:
     else:
         return False
 ```
+
+### Creating a Function with positional args
+
+```python
+def persninfo(name, job):
+    print("\nMy name is "+ name + ". ")
+    print(" and I am a(n) "+ job +". ")
+persninfo("ftnfanb", "429 TA")
+    
+```
+
+
+### Creating a Function with default value
+
+```python
+def persninfo(name, job="developer"):
+    print("\nMy name is "+ name + ". ")
+    print(" and I am a(n) "+ job +". ")
+persninfo("ftnfanb")
+    
+```
+
+
+### Using a keyword argument
+
+```python
+def petsAndInfo(name, numOfPets):
+    print("My name is "+ name + " and I have "+ numOfPets + " pet(s).")
+```
+### Making the argument optional 
+
+```python
+def petsAndInfo(name, numOfPets=None):
+    print("My name is "+ name)
+    if(numOfPets):
+        print(" and I have " + numOfPets + " pet(s).")
+petsAndInfo("Bob", str(5))
+petsAndInfo("Tracy")
+```
+
+### Returning A Dictionary
+
+```python
+def myFullName(fName, lName):
+    individ = {"First Name": fName, "Last Name": lName }
+    return individ
+bookfb = myFullName("Angela", "Cao")
+print(bookfb)
+```
+
+### Taking A List as an argument
+
+```python
+def sayHiToGuests(people): 
+    for person in people: 
+        message = "Hi, " + person + "!"
+        print(message)
+peeps = ["Joey", "DJ", "Pascal"]
+sayHiToGuests(peeps) 
+```
+
