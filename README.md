@@ -68,6 +68,15 @@ cstsffb = memoryview(bytes(7))
 
 ```
 
+#####  M= Mutable I=Immutable
+||| 		Python Datatypes			|||                    
+|----------|----------|----------|----------|----------|
+|    String|      List|   Tuple  |   Set    |Dictionary|
+|    I|      M|   I  |   M    |M|
+|Ordered/Indexed   |Ordered/Indexed|Ordered/Indexed |Unordered|Unordered|
+|Empty = ""          |Empty = []|Empty=()|Empty= set()|Empty= {}|
+|Does Not Apply|any datatype= s,l,set, tuple, int, dict|any datatype= s,l,set, tuple, int, dict |cannot store list, set, dict|key can be str, int, tuple but val can be anything|
+
 
 ## How to create A virtual Environment In Python
 ```bash
