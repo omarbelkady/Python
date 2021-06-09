@@ -18,7 +18,7 @@
 ### Cross-Validation:
 - Gives you the performance of your ML model depending on the new unseen data
 
-### Functions You Must Know in Each Category of ML
+### Loss Functions You Must Know in Each Category of ML
 
 #### Classification
 
@@ -30,7 +30,7 @@
 
 #### Regression
 
-1. Huber, , , , Mean Squared Error/ L2, Mean Squared Logarithm Error/ L2,
+1. Huber
 2. Quantile
 3. Log Cosh
 4. Mean Absolute Error/ L1
