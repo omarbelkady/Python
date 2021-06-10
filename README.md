@@ -97,3 +97,71 @@ root@omarbelkady: ~$ deactivate
 import webbrowser
 webbrowser.open("https://www.nelanthecstsffb.com')
 ```
+
+
+## Python Errors And Quick Fixes
+- ZeroDivisionError: The operation you are trying to perform is not possible because you are dividing by zero. Division
+by 0 is not allowed
+
+- EOFError: Compiler hits the End of File and we are trying to use the input() function and we are not allowed to because
+of the placement of it.
+
+- FloatingPointError: I am performing an invalid operation with a floating data type value.
+
+- ImportError: The module you are trying to import does not exist
+
+- IndentationError: You are indenting and shouldn't be
+
+- IndexError: You are trying to access an invalid index
+L1= [1,2,3]
+L1[3]
+
+- KeyboardInterrupt: When I hit CTRL+C shortcut or del key to interrupt the program I am running.
+
+- KeyError: You are trying to access a key that is non-existant within a dictionary aka key-value pair
+
+- MemoryError: We have performed n number of operations and they have used up all our memory.
+
+- ModuleNotFoundError: You are trying to import a module that doesn't exist
+
+- NameError: This is raised whenever you try to use a variable that you have not defined yet locally or globally.
+
+- OSError: A System operation was performed and it triggered a system-related error. 
+
+- OverflowError: The arithmetic operation is too large for the declared data type we are performing with.
+
+We can overcome errors by using conditionals: try-except block, if else statement, while loop
+
+- RuntimeError: Error that is raised does not have any category
+
+- StopIteration: Caused when calling the next() method within a for loop and there is no subsequent element to iterate through. 
+We have reached and the end and within our code we either have not set the limit in our for loop or the limit is too high for the number of elements we are iterating through.
+
+- Syntax Error: You have a typo or are misusing a statement/reserved keyword correctly for example:
+```python
+while True
+ print('MY NAME IS OMAR')
+```
+
+The above line of code will error because I am missing a colon.
+It should be:
+```python
+while True:
+      print('MY NAME IS OMAR')
+```
+
+- SystemError: When the interpreter detects an internal error
+
+- SystemExit: When you called the sys.exit() function this is triggered 
+
+- TabError: You have indented too much and must dedent a places back. Or You must indent. It is parallel with spaces.
+
+- TypeError: This is raised whenever you try to perform an operation with two non-identical datatypes. 
+
+The compiler will raise an error telling you you cannot convert the 2nd datatype to the first datatype.
+
+- UnboundLocalError: You are trying to access a local variable which is not defined aka does not exist
+
+- UnicodeError: Unicode Encoding/Decoding Error is taking place
+
+- ValueError: When you pass in a value into a function to perform a computation. The value is the correct data type but of incorrect value
