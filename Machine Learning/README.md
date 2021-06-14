@@ -1,7 +1,34 @@
 ## Terminology and Techniques
 
 
-- Clustering: Putting data together which have similar characteristics into dense cluster in an unsupervised way
+
+
+|Problem                          |Definition                         
+|-------------------------------|-----------------------------|
+|Regression            |find a relation between x(indep var) and y(dep var)            |
+|Classification          |classify an observation to one of the known categories         |
+|Clustering| group a set of objects into several known clusters|
+
+
+### Steps to Building a Model
+---
+1. Retrieve The Data
+2. Prepare the data and fix the issues such as any values missing and the outliers
+3. Analyze your data and make a decision on which algorithm suits your needs
+4. Train your model using the algo you just chose. Start simple by only using the most import variables
+5. If your model does not meet your needs choose another algorithm or bring in different variables into your existing model
+
+### Machine Learning Algorithm, Problem and its Learning Style
+|Algorithm                          |Problem | Learning Style|                  
+|-------------------------------|-----------------------------|------------|
+|Decision Tree| Classification/Regression |Supervised
+|Logistic Reg|Classification|Supervised
+|K-Means| Clustering |Unsupervised
+|KNN| Classification|Supervised
+|Naive-Bayes| Classification|Supervised
+|Random Forest| Classification/Regression |Supervised
+|SVM| Classification/Regression|Supervised
+
 
 ### Types of Algo in Clustering:
 - K Means Clustering
