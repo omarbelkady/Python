@@ -21,12 +21,20 @@
 ### Machine Learning Algorithm, Problem and its Learning Style
 |Algorithm                          |Problem | Learning Style|                  
 |-------------------------------|-----------------------------|------------|
+|Boosting |N/A |Unsupervised
 |Decision Tree| Classification/Regression |Supervised
+|Ensemble Methods| Regression |Supervised
+|Gaussian Mixtures |N/A |Unsupervised
+|Gaussian Progresses Regression|Regression|Supervised
+|Hierarchical Clustering | Clustering | Unsupervised
+|Linear Reg|Regression|Supervised
 |Logistic Reg|Classification|Supervised
 |K-Means| Clustering |Unsupervised
 |KNN| Classification|Supervised
 |Naive-Bayes| Classification|Supervised
 |Random Forest| Classification/Regression |Supervised
+|Spectral Clustering|Clustering|Unsupervised
+|Support Vector Regression|Regression|Supervised
 |SVM| Classification/Regression|Supervised
 
 
@@ -40,6 +48,13 @@
 
 - Find the ideal model weights which reduces the loss between predicted and actual value
 - whilst remembering to obtain the best fit of a certain dataset to the model  
+
+### Naive Bayes Algorith
+
+- Based on the Bayes Theorem
+- It gathers information to determine the probability of an event to take place based on knowledge
+- ... it has from the past which are related to the event
+- It is naive because the way it makes up its decision may or may not be accurate 
 
 
 ### Cross-Validation:

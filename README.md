@@ -165,3 +165,38 @@ The compiler will raise an error telling you you cannot convert the 2nd datatype
 - UnicodeError: Unicode Encoding/Decoding Error is taking place
 
 - ValueError: When you pass in a value into a function to perform a computation. The value is the correct data type but of incorrect value
+
+
+
+### Powerful One Liners
+
+1. Swap Two Vars
+
+```python
+
+polan2632, dj32 = dj32, polan2632
+```
+
+2. One Liner If Else Statement
+
+```python
+myvar = 42932 if 3532 < 237627332 else 37532
+```
+
+3. Sum of every other value
+
+```python
+sum(prices[::2])
+```
+
+4. Determining If a phrase is a palindrome
+
+```python
+phrase.find(phrase[::-1])
+```
+
+5. Replace a text within a text file
+
+```python
+print(open("somefile.txt").read().replace("hi", "bye"))
+```
