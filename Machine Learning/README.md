@@ -1,7 +1,7 @@
 ## Terminology and Techniques
 
 
-
+![ML CHEATSHEET](https://github.com/omarbelkady/Python/issues/73#issuecomment-849612798)
 
 |Problem                          |Definition                         
 |-------------------------------|-----------------------------|
