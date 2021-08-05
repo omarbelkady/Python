@@ -49,7 +49,7 @@
 - Find the ideal model weights which reduces the loss between predicted and actual value
 - whilst remembering to obtain the best fit of a certain dataset to the model  
 
-### Naive Bayes Algorith
+### Naive Bayes Algorithm
 
 - Based on the Bayes Theorem
 - It gathers information to determine the probability of an event to take place based on knowledge
@@ -78,3 +78,4 @@
 4. Mean Absolute Error/ L1
 5. Mean Squared Error/ L2
 6. Mean Squared Logarithm Error/ L2
+
