@@ -55,6 +55,88 @@
 - It gathers information to determine the probability of an event to take place based on knowledge
 - ... it has from the past which are related to the event
 - It is naive because the way it makes up its decision may or may not be accurate 
+- P(y|X)....(P of y given x) is called the posterior probability
+- P(x_i|Y)....(P of x given y) is called the class conditional probability
+- P(y)...(P of y) is called the prior probability of y
+- P(x)...(P of x) is called the prior probability of x
+
+    - Objective: Choose class with the highest probability because we are doing classification
+
+
+### Class Conditional Property in NaiveBayes
+```python
+import numpy as np
+
+class NaiveBayes:
+    def fit(self, X, y):
+        '''
+            train data = X
+            training label = Y
+            number_of_rows: num_of_samples
+            number_of_columns: num_of_features 
+        '''
+        num_of_samples, num_of_features = X.shape
+        #to find the unique elements within the list i.e. array
+
+        self._classes = np.unique(y)
+        num_of_classes = len(self._classes)
+
+        ''' 
+        initializing the mean, variance and priors
+        for each class... we need a mean for each feature
+        '''
+
+        
+        self._mean = np.zeros((num_of_classes, num_of_features), dtype=np.float64)
+        self._variance = np.zeros((num_of_classes, num_of_features), dtype=np.float64)
+        self._priors = np.zeros(num_of_classes, dtype=np.float64)
+
+        for eachclass in self._classes:
+            #only want the samples 
+            X_c = X[eachclass == y]
+            '''
+            calculate the mean for each class
+            I want to fill the row  and all columns
+            '''
+            self._mean[eachclass,:] = X_c.mean(axis=0)
+            self._variance[eachclass,:] = X_c.var(axis=0)
+            #divide by the number of sample
+            self._priors[eachclass] = X_c.shape[0] / float(num_of_samples) 
+
+
+    def predict(self, X):
+        predic_y = [self._predictmeth(eachsample) for eachsample in X]
+        return predic_y
+
+    #takes in one sample
+    def _predict(self, x):
+        '''
+        1. calculate the posterior probability
+        2. calculate the class conditional
+        and the prior for each(class cond)
+        3. Select the class with the highest probability
+        '''
+        the_posteriors = []
+        # go over each class 
+        for idxc, c in enumerate(self._classes):
+            the_prior = self._priors(idxc)
+            clss_cond = np.sum(np.log(self._prob_dens_func(idxc,x)))
+            posterior = the_prior + clss_cond 
+            the_posteriors.append(posterior)
+            #I choose the class with the highest probability thanks to argsmax
+        #index is now: the posteriors with the highest probability 
+        return self._classes[np.argmax(the_posteriors)]
+    
+    # pdf function
+    def _prob_dens_func(self, clss_idx, x):
+        #i need the mean and the variance
+        the_mean = self._mean[clss_idx]
+        the_variance = self._variance[clss_idx]
+        numerator = np.exp(-(x-the_mean)**2/(2*the_variance))
+        denominator = np.sqrt(2*np.pi*the_variance)
+        return numerator / denominator
+```
+
 
 
 ### Cross-Validation:
