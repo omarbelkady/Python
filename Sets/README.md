@@ -18,9 +18,9 @@ myset2={"f","c", "j"}
 
 |                |Start               |       Method    |Output                         |
 |----------------|-----------------|------------|---------------|
-|add|{}            | {"hi","how","are","you"} | .add("great")            |you, how, hi, great, are            |
+|add             |{"hi","how","are","you"}      | .add("great")            |you, how, hi, great, are            |
 |clear          |  {"▢","☆"}         |.clear()            |{}   |
-|copy a set     |       {"△","▢","☆"}      |.copy()           |▢▢▢   |  
+|copy a set     |       {"△","▢","☆"}      |.copy()           | NEW COPY IS MADE |  
 |difference          |  {"a","c","c","d"}         |.difference(myset2)            | j, f   |  
 |discard          |  {"△","▢","☆"}         |.discard("△")   | ☆,▢  |  
 |pop i.e. removes from top          |  {"△","▢","☆"}         |.pop()            | ▢,☆   |
