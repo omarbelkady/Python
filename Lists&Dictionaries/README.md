@@ -1,7 +1,10 @@
 ## Lists & Dictionaries
 
-
+### List
 - Can store different data types in a list
+- Ordered
+- Allows duplicates
+- Mutable
 
 ### How to declare a list
 
@@ -38,9 +41,10 @@ myNewList.append("ALAN <3 C!!!!")
 ## Tuples
 
 - A tuple is a collection which is:
-- ordered
-- unchangeable(no modification, no adding, no removing).
+- Ordered
+- Immutable
 - In Python tuples are written with parenthesis
+- Duplicates allowed
 
 ```python
 omarTuple=(5,2,3,5,41,4)
@@ -49,6 +53,11 @@ print("The number location of 'For Angela: ' is: %d" %omarTuple.index("For Angel
 ```
 
 ## Dictionaries
+
+- A dictionary is a collection which is:
+     - Ordered
+     - Mutable
+     - No Duplicates
 
 ### Declaration of a Dictionary
 
