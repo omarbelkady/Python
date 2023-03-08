@@ -2,6 +2,19 @@
 Python Programs
 
 
+## Learn In This Order
+1. Basic Arithmetic
+2. Control Flow
+3. Taking User Input
+4. Working With Strings
+5. Typecasting
+6. Loops[For and While]
+7. Exception Handling
+8. Functions
+9. Lambdas
+10. OOP
+11. Data Structures: Lists, Dictionaries, Tuples and Sets
+
 ## Important Concepts
 	1- Arrays in other programming languages are what we call lists in python
 	2- self keyword is a reference to an object your are curr in!!!!
