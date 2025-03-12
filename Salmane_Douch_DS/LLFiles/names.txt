@@ -1,0 +1,101 @@
+=============
+Name: Emily Johnson  
+ID: 1001  
+GPA: 3.7  
+Major: Computer Science  
+=============
+Name: Liam Smith  
+ID: 1002  
+GPA: 3.2  
+Major: Mechanical Engineering  
+=============
+Name: Olivia Brown  
+ID: 1003  
+GPA: 3.9  
+Major: Mathematics  
+=============
+Name: Ethan Davis  
+ID: 1004  
+GPA: 3.5  
+Major: Physics  
+=============
+Name: Sophia Miller  
+ID: 1005  
+GPA: 3.8  
+Major: Biology  
+=============
+Name: James Wilson  
+ID: 1006  
+GPA: 3.1  
+Major: Chemistry  
+=============
+Name: Ava Moore  
+ID: 1007  
+GPA: 4.0  
+Major: Economics  
+=============
+Name: Benjamin Taylor  
+ID: 1008  
+GPA: 3.6  
+Major: Psychology  
+=============
+Name: Mia Anderson  
+ID: 1009  
+GPA: 3.3  
+Major: History  
+=============
+Name: Lucas Thomas  
+ID: 1010  
+GPA: 3.4  
+Major: English Literature  
+=============
+Name: Charlotte White  
+ID: 1011  
+GPA: 3.7  
+Major: Political Science  
+=============
+Name: Alexander Harris  
+ID: 1012  
+GPA: 3.9  
+Major: Data Science  
+=============
+Name: Amelia Martin  
+ID: 1013  
+GPA: 3.2  
+Major: Environmental Science  
+=============
+Name: Henry Thompson  
+ID: 1014  
+GPA: 3.5  
+Major: Cybersecurity  
+=============
+Name: Scarlett Garcia  
+ID: 1015  
+GPA: 3.8  
+Major: Artificial Intelligence  
+=============
+Name: Samuel Robinson  
+ID: 1016  
+GPA: 3.0  
+Major: Business Administration  
+=============
+Name: Luna Clark  
+ID: 1017  
+GPA: 3.6  
+Major: Nursing  
+=============
+Name: Theodore Rodriguez  
+ID: 1018  
+GPA: 3.4  
+Major: Sociology  
+=============
+Name: Harper Lewis  
+ID: 1019  
+GPA: 3.7  
+Major: Architecture  
+=============
+Name: Jack Lee  
+ID: 1020  
+GPA: 3.9  
+Major: Aerospace Engineering  
+=============
